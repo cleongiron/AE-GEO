@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="(new model)" id="29f3c69d-2ec6-4bf0-89c1-be38d382aa56" version="4.0.1">
+  <folder name="Strategy" id="033496fb-72e4-45d4-bfcf-62175b26a720" type="strategy"/>
+  <folder name="Business" id="0c65374c-3394-45c3-8ab0-25976357a464" type="business"/>
+  <folder name="Application" id="86dcc746-51c1-42b2-ac02-cd3d3ae6b081" type="application"/>
+  <folder name="Technology &amp; Physical" id="2acf95a1-6409-4ad9-a909-ec1707608fd5" type="technology"/>
+  <folder name="Motivation" id="1ec9a49a-9fb0-4ceb-9697-ac35d65868fc" type="motivation">
+    <element xsi:type="archimate:Driver" name="Driver" id="297ab65f-6972-41f0-9f1b-acd53e16cb67"/>
+    <element xsi:type="archimate:Goal" name="Misión  Promover una cultura geográfica a nivel organizacional, de la cual se logre un beneficio para el  cliente, accionaistas , empleados.  " id="7d0b81c6-94f5-4924-b748-8961313bf9fd"/>
+    <element xsi:type="archimate:Goal" name="Visión Lograr una organización diferenciadora del sector por la implementación de conceptos geográficos y geosepaciales " id="80433daa-6cfd-4110-b7af-a3a5c2f93354"/>
+    <element xsi:type="archimate:Goal" name="Estrategia TI Generar valor a la Organización empleando nuevas tecnologías y organizando los procesos actuales, los cuales se reflejen en la optimización de timpos y satisfacción del cliente." id="20d143c8-fae3-4d31-99e8-8f471310222f"/>
+    <element xsi:type="archimate:Goal" name="Objetivos *Organizar los procesos de las áreas involucradas usando conceptos geoespaciales y nuevas tecnologías. *Implementar nuevas tecnologías colaborativa para el área de construcción haciendo que el tiempo de los proyectos sea menor. *Generar una cultura geográfica organizacional orientada a describir una compañía líder dentro del sector." id="0ee85c1b-4af6-4897-914a-0fc5aa17388f"/>
+    <element xsi:type="archimate:Goal" name="Declaración de la Arquitectura" id="487e40f8-6c41-4da8-b3c5-8770f04fc594"/>
+  </folder>
+  <folder name="Implementation &amp; Migration" id="2e89ebf0-cc3e-438a-889b-cbf0bed62ee6" type="implementation_migration"/>
+  <folder name="Other" id="158bb07d-0bd6-4ad8-aa8e-60c9676ab629" type="other"/>
+  <folder name="Relations" id="45c08da7-267b-4f6a-975e-49e0b37f89c0" type="relations"/>
+  <folder name="Views" id="307fc404-6c47-448d-93f8-6e75085b349b" type="diagrams">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Default View" id="010a39af-98fe-44be-b1e7-7dc2792d471d">
+      <child xsi:type="archimate:DiagramObject" id="86deda45-6832-412c-ac25-c1733a11782d" archimateElement="487e40f8-6c41-4da8-b3c5-8770f04fc594">
+        <bounds x="156" y="96" width="553" height="361"/>
+        <child xsi:type="archimate:DiagramObject" id="6feb8727-894c-4792-a1d6-dd46ed3c4ca7" archimateElement="7d0b81c6-94f5-4924-b748-8961313bf9fd">
+          <bounds x="37" y="48" width="229" height="97"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="b739560a-e47a-43f4-9421-c84f0fe7b944" archimateElement="80433daa-6cfd-4110-b7af-a3a5c2f93354">
+          <bounds x="312" y="36" width="181" height="121"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="171e7086-fe6e-4614-8304-0d6720bec92e" fillColor="#ff8000" archimateElement="20d143c8-fae3-4d31-99e8-8f471310222f">
+          <bounds x="48" y="180" width="208" height="145"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="07fc80dc-90bc-4a6e-b63d-5dd17fbe1e61" archimateElement="0ee85c1b-4af6-4897-914a-0fc5aa17388f">
+          <bounds x="288" y="180" width="241" height="157"/>
+        </child>
+      </child>
+    </element>
+  </folder>
+</archimate:model>
