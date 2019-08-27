@@ -24,9 +24,7 @@
   </folder>
   <folder name="Motivation" id="57019bd4-f2e5-462b-8d61-0044ebf64543" type="motivation"/>
   <folder name="Implementation &amp; Migration" id="3733c8ca-a9d7-475b-9f2d-e2de52cc587e" type="implementation_migration"/>
-  <folder name="Other" id="df4c0a23-d85f-4643-942d-740af04a2428" type="other">
-    <element xsi:type="archimate:Location" name="Location" id="7c7ba2c9-c613-49ac-bbd9-080144095542"/>
-  </folder>
+  <folder name="Other" id="df4c0a23-d85f-4643-942d-740af04a2428" type="other"/>
   <folder name="Relations" id="08310b91-fbfb-4185-8d8e-5dfb5742abd3" type="relations">
     <element xsi:type="archimate:TriggeringRelationship" id="04da4414-1785-430d-bd40-e23d9c6509c6" source="24209dd1-4f8c-4ad9-86eb-8061d37d0230" target="80abb608-5bfe-4572-986e-0cf97cc43b91"/>
     <element xsi:type="archimate:RealizationRelationship" id="7f81690e-43f6-42fc-b860-b9b906d56948" source="11e27ed3-c219-4c23-a065-bdc49d1cefd4" target="24209dd1-4f8c-4ad9-86eb-8061d37d0230"/>
@@ -55,7 +53,7 @@
         <sourceConnection xsi:type="archimate:Connection" id="7e2be4f8-3d9e-4354-a7df-f0d77433fb18" source="3f9410fe-5e3a-420a-bdfc-01623dfb63bc" target="5318a58e-6986-4aff-8efa-2bb5afcc50e4" archimateRelationship="815bd357-2281-46c5-a9bb-caa7a9c09844"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="5318a58e-6986-4aff-8efa-2bb5afcc50e4" targetConnections="ede4ce2d-43ac-4691-9dfe-79a123de7a38 7e2be4f8-3d9e-4354-a7df-f0d77433fb18 adc9bf25-cb53-4f9e-aa24-fd0f7b11777b" archimateElement="11e27ed3-c219-4c23-a065-bdc49d1cefd4">
-        <bounds x="396" y="228" width="144" height="55"/>
+        <bounds x="408" y="228" width="144" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="f77513aa-182e-4cd8-8a64-87f4d1e54c72" source="5318a58e-6986-4aff-8efa-2bb5afcc50e4" target="d26928e4-bd9a-4c0a-b5e3-ce27d755c51a" archimateRelationship="7f81690e-43f6-42fc-b860-b9b906d56948"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="cb84820a-8575-4987-8859-62e4f2b8ce67" archimateElement="a75407a9-d195-4ddd-a6c3-916ad02dfefd">
@@ -89,9 +87,6 @@
           <bounds x="12" y="21" width="120" height="55"/>
           <sourceConnection xsi:type="archimate:Connection" id="3af94a27-8ccb-43ad-83f3-1135e7f2321b" source="8d4644ac-6acd-43ac-bba7-a3f18310190a" target="1ece1a51-b730-4d68-8515-2f95922c76bf" archimateRelationship="c92adcd9-0a6c-4a8f-b6ac-c458af41d086"/>
         </child>
-      </child>
-      <child xsi:type="archimate:DiagramObject" id="6c88a584-0a71-4ceb-bd2c-49b63538e366" archimateElement="7c7ba2c9-c613-49ac-bbd9-080144095542">
-        <bounds x="629" y="236" width="120" height="55"/>
       </child>
     </element>
   </folder>
