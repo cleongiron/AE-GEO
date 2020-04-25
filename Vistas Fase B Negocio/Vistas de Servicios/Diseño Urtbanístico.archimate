@@ -76,7 +76,7 @@
         </child>
       </child>
       <child xsi:type="archimate:DiagramObject" id="7bc2e716-734e-4880-922c-0a11db19bae5" archimateElement="7367b25f-8282-4d6b-b204-d3f5a17b20e5">
-        <bounds x="180" y="225" width="120" height="55"/>
+        <bounds x="180" y="285" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="f4c13eaf-8225-4058-a568-e847c31ac664" source="7bc2e716-734e-4880-922c-0a11db19bae5" target="e36cff55-d2cb-4529-9d79-a2ee940812cc" archimateRelationship="9f0bfd51-dbeb-4600-aaab-8fc20a633c13"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="a391953b-6b06-4e5d-b4c4-69c290507efc" archimateElement="49844740-9b6a-4959-a97c-e1c5cd04739c">

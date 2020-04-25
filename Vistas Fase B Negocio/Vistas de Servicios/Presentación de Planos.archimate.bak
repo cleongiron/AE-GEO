@@ -90,7 +90,7 @@
         <bounds x="696" y="48" width="141" height="55"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="6708a70e-4551-4c7f-8283-5426809cdb2f" archimateElement="a334509f-97de-4543-8374-fb01c8b7293a">
-        <bounds x="792" y="411" width="120" height="49"/>
+        <bounds x="768" y="411" width="120" height="49"/>
         <sourceConnection xsi:type="archimate:Connection" id="8bf91e87-1a12-4351-a5ba-c7cbe9dbe41d" source="6708a70e-4551-4c7f-8283-5426809cdb2f" target="04386823-c320-49fa-b1a6-d3aea6ca3497" archimateRelationship="4419b42d-a411-4fbc-92f3-ed4bd9c2ee1d"/>
         <sourceConnection xsi:type="archimate:Connection" id="fbe370bf-e2df-43fc-9798-cb65158ce85a" source="6708a70e-4551-4c7f-8283-5426809cdb2f" target="91ab76cb-fad6-492a-9784-fbdbc9968135" archimateRelationship="cb58b45f-e183-45f7-911b-79a6d3948435"/>
       </child>
