@@ -50,7 +50,7 @@
     <element xsi:type="archimate:AssignmentRelationship" id="388ad43d-4451-4063-8cdd-d2528fd4712f" source="c156c0ae-12c9-4bcb-b31b-396d38d2f942" target="147a45bb-7cb6-46b2-a000-e44f9e1dab8d"/>
   </folder>
   <folder name="Views" id="e0abb36e-6af6-4426-bff4-5ed5f58eba6b" type="diagrams">
-    <element xsi:type="archimate:ArchimateDiagramModel" name=" Evaluando Avance de la Obra" id="fd3235b1-7c09-4fb0-9eb1-5313217bddba" connectionRouterType="2">
+    <element xsi:type="archimate:ArchimateDiagramModel" name=" Evaluando Avance de la Obra" id="fd3235b1-7c09-4fb0-9eb1-5313217bddba" connectionRouterType="2" viewpoint="business_process_cooperation">
       <child xsi:type="archimate:DiagramObject" id="6e9c1358-e723-4208-a16c-0a9116571318" targetConnections="43f8665e-ffc3-4985-bffc-ce93ee1908e2" archimateElement="cda10faf-05b8-4415-b6cb-fe6176211bc9">
         <bounds x="144" y="144" width="1057" height="181"/>
         <sourceConnection xsi:type="archimate:Connection" id="9cc628f2-45fc-4f04-97a3-aa82669a7c91" source="6e9c1358-e723-4208-a16c-0a9116571318" target="f1cbf2ef-70c2-4038-915a-5b849f227f3f" archimateRelationship="f4f87c1f-2dd9-4ec6-9e4d-ec39fab47ee3"/>

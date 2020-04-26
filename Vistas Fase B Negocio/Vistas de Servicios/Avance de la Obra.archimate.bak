@@ -101,7 +101,7 @@
         <sourceConnection xsi:type="archimate:Connection" id="470c7a55-f4a0-481d-9380-757c1b118aab" source="7ff9d809-8c7f-4fee-87d5-ca4955ffc5d1" target="f7c623f7-6707-481e-b912-2b3c85061696" archimateRelationship="0864b0a4-dc17-4665-8d73-c2e32aa05bd1"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="722adc96-588b-4ef9-a841-79ecd525549c" archimateElement="c5642d45-5104-49e9-a158-7eb4906bbfca">
-        <bounds x="1044" y="363" width="120" height="49"/>
+        <bounds x="1044" y="363" width="133" height="52"/>
         <sourceConnection xsi:type="archimate:Connection" id="15b00eb0-b508-4412-b0ff-b5c5258b2a78" source="722adc96-588b-4ef9-a841-79ecd525549c" target="d5fecc24-dca6-405c-8c46-2dfe618d6768" archimateRelationship="59ca8339-afdb-4a05-b505-136929f2e11b"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="5626d762-3150-4ab8-848e-fda582755874" archimateElement="c156c0ae-12c9-4bcb-b31b-396d38d2f942">
