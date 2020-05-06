@@ -238,6 +238,18 @@
 										dataElements.push({id:"85cdca1c-bff7-47ef-bcd6-f6fdd497db89", type:"BusinessActor", name:decodeURL("Responsable+del+Proyecto"), description:decodeURL("")});
 										dataElements.push({id:"cc0e24ab-53d3-4101-b420-82423613fdd3", type:"BusinessService", name:decodeURL("SIG+-+Construcci%C3%B3n"), description:decodeURL("")});
 										dataElements.push({id:"c8d72cec-8573-4d42-88be-11542d998c6f", type:"BusinessActor", name:decodeURL("Administrador+de+Aplicacciones"), description:decodeURL("")});
+										dataElements.push({id:"f1efc952-930f-4e87-92cb-7cd5bdbfefaf", type:"BusinessFunction", name:decodeURL("Gesti%C3%B3n+Territorial+"), description:decodeURL("")});
+										dataElements.push({id:"ed100c41-5920-4a35-bf07-9a776dbeae15", type:"BusinessProcess", name:decodeURL("Evaluaci%C3%B3n+y+Selecci%C3%B3n+de+Variables+Territoriales+Internas+Externas+"), description:decodeURL("")});
+										dataElements.push({id:"6c93ee80-d7d0-4151-9f8c-7950acad9505", type:"BusinessProcess", name:decodeURL("Organizaci%C3%B3n+de+Fuentes-+Correlaci%C3%B3n+de+Variables"), description:decodeURL("")});
+										dataElements.push({id:"cbb20dcf-ab95-493d-b345-899bef4499ef", type:"BusinessFunction", name:decodeURL("An%C3%A1lisis+Geogr%C3%A1fico"), description:decodeURL("")});
+										dataElements.push({id:"2a442079-045b-48f5-854c-a0664400cf55", type:"BusinessProcess", name:decodeURL("Construcci%C3%B3n+de+Instrumentos+relevamiento+de+Campo"), description:decodeURL("")});
+										dataElements.push({id:"a149fe31-0d36-4a9d-8a11-470b6f37d925", type:"BusinessProcess", name:decodeURL("Analisis+de+Variables+Selecci%C3%B3n"), description:decodeURL("")});
+										dataElements.push({id:"f4d1be4f-3524-42e9-a8a8-9d70fb627656", type:"BusinessProcess", name:decodeURL("Producto+Cartogr%C3%A1fico"), description:decodeURL("")});
+										dataElements.push({id:"d8df7663-ed1c-4197-b5bd-5728fdc6c9e0", type:"BusinessProcess", name:decodeURL("Aprobaci%C3%B3n+del+Producto"), description:decodeURL("")});
+										dataElements.push({id:"2ac3a1a9-e260-4cee-9374-6bce815b8f4b", type:"BusinessEvent", name:decodeURL("Solicitud+Principales+riesgos+del+proyecto+%C3%81rea+de+Planeaci%C3%B3n"), description:decodeURL("")});
+										dataElements.push({id:"a6954170-fad3-4564-ba58-f8e7cd28bf03", type:"BusinessRole", name:decodeURL("Planeaci%C3%B3n"), description:decodeURL("")});
+										dataElements.push({id:"12017150-fbd4-430e-97d0-fce179af3e81", type:"BusinessRole", name:decodeURL("Gesti%C3%B3n+de+Lotes"), description:decodeURL("")});
+										dataElements.push({id:"dd3535d6-cb3a-4fe4-a38a-298c847bb0b4", type:"BusinessRole", name:decodeURL("Grupo+T%C3%A9cnico"), description:decodeURL("")});
 
 
 										dataElements.push({id:"7d5712d9-d9ae-42ae-a1e4-19d2fad4e2af", type:"ApplicationComponent", name:decodeURL("Sentinel"), description:decodeURL("")});
@@ -366,6 +378,7 @@
 										dataElements.push({id:"93f3516b-d659-46f2-af0a-bced4ab6935b", type:"Location", name:decodeURL("Cliente"), description:decodeURL("")});
 										dataElements.push({id:"165eba0d-fc95-43b2-9fe1-c9bf47c66200", type:"Grouping", name:decodeURL("Preprocesamiento+de+Datos"), description:decodeURL("")});
 										dataElements.push({id:"6eea2a88-0159-46cd-a87f-cbc718a9b968", type:"Grouping", name:decodeURL("Habilitaci%C3%B3n+de+Tierras"), description:decodeURL("")});
+										dataElements.push({id:"1dcddfb7-6d81-497c-93cf-49577caaabf7", type:"Grouping", name:decodeURL("Preprocesamiento+de+Datos"), description:decodeURL("")});
 
 
 										dataRelations.push({id:"1887515c-38d7-4521-9131-318975e9d950", type:"AssociationRelationship", name:decodeURL(""), description:decodeURL(""), source:"f48a8d85-3278-4b2a-b167-53bdf6387fdb", target:"3498aa43-ec44-4ae2-a18e-5da8169301dd"});
@@ -606,23 +619,35 @@
 										dataRelations.push({id:"8c4b9ed8-3c40-4654-8a7d-fcf2305e3fdd", type:"CompositionRelationship", name:decodeURL(""), description:decodeURL(""), source:"7a95f942-a90d-4c4e-b6af-3fa2b3748da0", target:"180bb7ab-a140-44bd-bb63-fabe1cda4d48"});
 										dataRelations.push({id:"d30f626f-cc79-443e-aea2-70c96172a139", type:"ServingRelationship", name:decodeURL(""), description:decodeURL(""), source:"01a79981-2ae0-42ca-b06a-7397fb5123d2", target:"45194308-d09e-4b52-a40a-e235e7758728"});
 										dataRelations.push({id:"637619ad-a9bc-4581-b414-7f53e6438899", type:"TriggeringRelationship", name:decodeURL(""), description:decodeURL(""), source:"c520417c-a634-403c-90a6-f5db5cf9ce2e", target:"cc0e24ab-53d3-4101-b420-82423613fdd3"});
+										dataRelations.push({id:"8c9dbd33-a3c1-47aa-b6bf-cf0898c3fde5", type:"TriggeringRelationship", name:decodeURL(""), description:decodeURL(""), source:"1dcddfb7-6d81-497c-93cf-49577caaabf7", target:"cbb20dcf-ab95-493d-b345-899bef4499ef"});
+										dataRelations.push({id:"39509a87-2ba6-4b0e-98ca-6edc8ea721a7", type:"AssignmentRelationship", name:decodeURL(""), description:decodeURL(""), source:"a6954170-fad3-4564-ba58-f8e7cd28bf03", target:"d8df7663-ed1c-4197-b5bd-5728fdc6c9e0"});
+										dataRelations.push({id:"ac92fb69-b338-435c-af6c-bb1bbf19e567", type:"CompositionRelationship", name:decodeURL(""), description:decodeURL(""), source:"f1efc952-930f-4e87-92cb-7cd5bdbfefaf", target:"d8df7663-ed1c-4197-b5bd-5728fdc6c9e0"});
+										dataRelations.push({id:"84c2c01b-e8e8-476a-8716-8a4c8d781ed0", type:"TriggeringRelationship", name:decodeURL(""), description:decodeURL(""), source:"a149fe31-0d36-4a9d-8a11-470b6f37d925", target:"f4d1be4f-3524-42e9-a8a8-9d70fb627656"});
+										dataRelations.push({id:"810265e3-f1de-4ff9-afa2-19d1d87e1427", type:"TriggeringRelationship", name:decodeURL(""), description:decodeURL(""), source:"f4d1be4f-3524-42e9-a8a8-9d70fb627656", target:"d8df7663-ed1c-4197-b5bd-5728fdc6c9e0"});
+										dataRelations.push({id:"52c9f010-b41b-4d45-a156-8e9d6e5ada96", type:"CompositionRelationship", name:decodeURL(""), description:decodeURL(""), source:"1dcddfb7-6d81-497c-93cf-49577caaabf7", target:"6c93ee80-d7d0-4151-9f8c-7950acad9505"});
+										dataRelations.push({id:"c7f2b76d-7ae1-4cd7-9bf4-0185d13da3e0", type:"AssignmentRelationship", name:decodeURL(""), description:decodeURL(""), source:"12017150-fbd4-430e-97d0-fce179af3e81", target:"cbb20dcf-ab95-493d-b345-899bef4499ef"});
+										dataRelations.push({id:"ed7a9203-2947-4fc4-a50c-70cd1268b08a", type:"AssignmentRelationship", name:decodeURL(""), description:decodeURL(""), source:"dd3535d6-cb3a-4fe4-a38a-298c847bb0b4", target:"1dcddfb7-6d81-497c-93cf-49577caaabf7"});
+										dataRelations.push({id:"c7bea7fb-864d-4ecc-bc96-0d3bdfc0019d", type:"TriggeringRelationship", name:decodeURL(""), description:decodeURL(""), source:"2ac3a1a9-e260-4cee-9374-6bce815b8f4b", target:"f1efc952-930f-4e87-92cb-7cd5bdbfefaf"});
+										dataRelations.push({id:"b8a5d79a-9391-40fe-9d86-464e38b2598b", type:"TriggeringRelationship", name:decodeURL(""), description:decodeURL(""), source:"2a442079-045b-48f5-854c-a0664400cf55", target:"a149fe31-0d36-4a9d-8a11-470b6f37d925"});
+										dataRelations.push({id:"ee128f71-3b3b-4910-b5a8-c7833fb5b769", type:"TriggeringRelationship", name:decodeURL(""), description:decodeURL(""), source:"ed100c41-5920-4a35-bf07-9a776dbeae15", target:"6c93ee80-d7d0-4151-9f8c-7950acad9505"});
 
 
 										dataElements.push({id:"adc89668-e77f-4d4d-adf3-4df5b34b43bb", type:"ArchimateDiagramModel", name:decodeURL("Vista+de+Metas+y+Objetivos+de+la+AE-GEO"), description:decodeURL("")});
 										dataElements.push({id:"9381fda0-dd07-43a1-b050-c628fbb115b5", type:"ArchimateDiagramModel", name:decodeURL("Vista+de+la+Organizaci%C3%B3n+Impactada"), description:decodeURL("")});
 										dataElements.push({id:"aa8396f9-b1b0-4305-9443-58a5f6f47e6f", type:"ArchimateDiagramModel", name:decodeURL("Vista+de+Aplicaciones+Actual"), description:decodeURL("")});
 										dataElements.push({id:"b225b9b3-2af0-4feb-9eb8-44e6652cfeaf", type:"ArchimateDiagramModel", name:decodeURL("Vista+de+Principios+de+la+AE-GEO"), description:decodeURL("")});
-										dataElements.push({id:"bf3b8054-1589-4b9c-9849-c61daa07da5d", type:"ArchimateDiagramModel", name:decodeURL("Vista+Ng+Evaluando+Avances+de+la+Obra"), description:decodeURL("")});
+										dataElements.push({id:"bf3b8054-1589-4b9c-9849-c61daa07da5d", type:"ArchimateDiagramModel", name:decodeURL("1.+Vista+Ng+Evaluando+Avances+de+la+Obra"), description:decodeURL("")});
 										dataElements.push({id:"370f9425-eb30-4d9a-a8a9-225cfd2c3298", type:"ArchimateDiagramModel", name:decodeURL("Vista+Ng+Gesti%C3%B3n+Territorial"), description:decodeURL("")});
-										dataElements.push({id:"8a0f8bd8-640d-456e-ada5-7d6989617d16", type:"ArchimateDiagramModel", name:decodeURL("Vista+Ng+Estudio+Ambiental"), description:decodeURL("")});
-										dataElements.push({id:"9aa09a24-35b5-4a6c-b5ff-9f3cd7c7ceed", type:"ArchimateDiagramModel", name:decodeURL("Vista+Ng+Levantamiento+Topogr%C3%A1fico"), description:decodeURL("")});
-										dataElements.push({id:"c3eb77fe-5468-4105-b36a-2ccf52062485", type:"ArchimateDiagramModel", name:decodeURL("Vista+Ng+Delimitaci%C3%B3n+de+Linderos"), description:decodeURL("")});
-										dataElements.push({id:"bc5804bc-4728-447a-843f-3396f8a14ec4", type:"ArchimateDiagramModel", name:decodeURL("Vista+Ng+Analizando+Urbanismo"), description:decodeURL("")});
-										dataElements.push({id:"64423368-da72-41d5-bfdb-79dbc90454d5", type:"ArchimateDiagramModel", name:decodeURL("Vista+Ng+An%C3%A1lisis+de+Terreno"), description:decodeURL("")});
+										dataElements.push({id:"8a0f8bd8-640d-456e-ada5-7d6989617d16", type:"ArchimateDiagramModel", name:decodeURL("3.+Vista+Ng+Estudio+Ambiental"), description:decodeURL("")});
+										dataElements.push({id:"9aa09a24-35b5-4a6c-b5ff-9f3cd7c7ceed", type:"ArchimateDiagramModel", name:decodeURL("4.+Vista+Ng+Levantamiento+Topogr%C3%A1fico"), description:decodeURL("")});
+										dataElements.push({id:"c3eb77fe-5468-4105-b36a-2ccf52062485", type:"ArchimateDiagramModel", name:decodeURL("6.+Vista+Ng+Delimitaci%C3%B3n+de+Linderos"), description:decodeURL("")});
+										dataElements.push({id:"bc5804bc-4728-447a-843f-3396f8a14ec4", type:"ArchimateDiagramModel", name:decodeURL("5.+Vista+Ng+Analizando+Urbanismo"), description:decodeURL("")});
+										dataElements.push({id:"64423368-da72-41d5-bfdb-79dbc90454d5", type:"ArchimateDiagramModel", name:decodeURL("7.+Vista+Ng+An%C3%A1lisis+de+Terreno"), description:decodeURL("")});
 										dataElements.push({id:"fc89d6ba-ee59-4554-8722-e7562c081629", type:"ArchimateDiagramModel", name:decodeURL("Vistas+de+Procesos+General+CB"), description:decodeURL("")});
 										dataElements.push({id:"4fe2e886-6bb6-419c-ba78-fa63b8003c63", type:"ArchimateDiagramModel", name:decodeURL("Vistas+Panoramica+Apl+y+Tec"), description:decodeURL("")});
 										dataElements.push({id:"a8513cb7-bf08-4c18-be6a-725038394cae", type:"ArchimateDiagramModel", name:decodeURL("Vista+De+Implementaci%C3%B3n+y+Migraci%C3%B3n"), description:decodeURL("")});
 										dataElements.push({id:"e7800498-e5e4-4f84-b192-e13a471ecd48", type:"ArchimateDiagramModel", name:decodeURL("Vista+de+Aplicaciones+Detalle"), description:decodeURL("")});
+										dataElements.push({id:"a9706341-b822-41d2-a233-4043af311ce2", type:"ArchimateDiagramModel", name:decodeURL("2.+Vista+Ng+Midiendo+Demanda+Social"), description:decodeURL("")});
 
 
 
